@@ -1,0 +1,113 @@
+nav{
+  color: aliceblue;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+#newChat-container
+{
+display: flex;
+justify-content: center;
+
+gap: 3%;
+padding: 1rem;
+}
+#newChat-link
+{
+  border: 0.5px solid white;
+  border-radius: 0.2rem;
+  width: 80%;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+#newChat-link:hover
+{
+background-color: rgb(255,255,255 , 0.5);
+}
+#sideBarIcon
+{
+  
+  padding: 0.5rem;
+  border: 0.5px solid white;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+#sideBarIcon:hover
+{
+  background-color: rgb(255,255,255 , 0.5);
+}
+#history
+{
+
+  height: 75vh;
+ 
+  
+  display: flex;
+  flex-direction: column;
+  gap:0.5rem
+
+}
+
+#history:hover{
+
+  overflow-y: scroll;
+  z-index: 999;
+}
+
+#profile
+{
+  height: 15vh;
+  
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.profile-item
+{
+
+  width: 90%;
+  height: 40%;
+ 
+  border-radius: 0.5rem;
+}
+
+.profile-item:hover
+
+{
+background-color: hsla(0,0%,100%,.05);
+cursor: pointer;
+}
+
+
+ .item2
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+#userProlile-item
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+#new
+{
+  background-color: yellow;
+      color: rgba(52,53,65,1);
+      padding: 0.1rem;
+      border-radius: 0.3rem;
+      font-size: smaller;
+}

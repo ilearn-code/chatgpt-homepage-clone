@@ -1,0 +1,138 @@
+main
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+#Banner-top
+{
+    height: 85vh;
+  
+ 
+}
+
+#Search-Input
+{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    caret-color: white;
+    ::selection
+    {
+        color: white;
+        background-color: blue;
+    }
+
+  
+    
+}
+
+#form-container
+{
+    width: 50vw;
+    height: 50%;
+    border-radius: 10px;
+    align-self: center;
+    justify-self: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background-color: hsla(0,0%,100%,.05);
+}
+
+ form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 100%;
+   height: 100%;
+    background-color: (64,65,79,.5);
+  
+}
+
+input
+{
+    width: 95%;
+    background-color: transparent;
+    padding: 0.2rem;
+    border: none;
+    outline: none;
+    color: white;
+} 
+form button
+{
+    border: none;
+    padding: 0.2rem;
+    background-color: transparent;
+}
+
+#Premium
+{
+    height: 15%;
+}
+
+#Header
+{
+    height: 80%;
+    
+    justify-content: center;
+}
+
+header{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article
+{
+    height: 80%;
+}
+#features
+{
+    height: 30%;
+display: flex;
+justify-content: center;
+gap: 10vw;
+
+}
+
+.item-features
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Searches
+{
+    height: 80%;
+    display: flex;
+
+    justify-content: center;
+   
+    
+}
+
+.Searches-container
+{
+    display: grid;
+   column-gap: 0.7rem;
+   row-gap: 0.7rem;
+   width: 65%;
+   height: 70%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+    justify-content: space-between;
+}
+.item-Searches
+{
+    
+    background-color: hsla(0,0%,100%,.05);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
