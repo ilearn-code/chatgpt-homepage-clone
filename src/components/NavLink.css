@@ -111,3 +111,24 @@ cursor: pointer;
       border-radius: 0.3rem;
       font-size: smaller;
 }
+
+
+
+@media only screen and (max-width: 767px) {
+  
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Your responsive styles for medium screens here */
+}
+
+/* Media query for large screens (992px to 1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Your responsive styles for large screens here */
+}
+
+/* Media query for extra large screens (1200px and above) */
+@media only screen and (min-width: 1200px) {
+  /* Your responsive styles for extra large screens here */
+}
